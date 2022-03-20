@@ -18,6 +18,13 @@ public class Balance {
 	
 	public Balance() {}
 	
+	/*
+	    * public boolean isBalance(String UserInput)
+	    * 
+	    * Utility method to tell if the string is balanced with brackets
+	    * 
+	    * @Return boolean response if the string is balanced
+	    */
 	public boolean isBalance(String UserInput)
 	{
 		//create a stack to put brackets in for testing
