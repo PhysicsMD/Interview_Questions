@@ -1,4 +1,4 @@
-package Question3;
+package question3;
 
 import java.util.ArrayList;
 
