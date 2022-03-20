@@ -362,14 +362,13 @@ public class BasicLLClass extends Object
    }
    
    /*
-    * public int getNthfromLast()
+    * public int getNthfromLast(int itemsfromEnd)
     * 
-    * Gets item in singly linked list that is N items from the end of the list
-    * Checks to see if N is within the bounds of the list
-    * Then uses getAtIndex to grab the Item and return it
+    * Receives item from a number of items at the end of a singly linked list
     * 
     * @Return integer item or FAILED_ACCESS
     */
+   
    public int getNthfromLast(int itemsfromEnd) 
    {
 	   if(itemsfromEnd < getCurrentSize()) 
