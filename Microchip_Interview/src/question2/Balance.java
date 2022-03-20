@@ -16,7 +16,7 @@ public class Balance {
 	// a key that contains all the brackets
 	private String bracketTypes = "({[)}]"; 
 	
-	private Balance() {}
+	public Balance() {}
 	
 	public boolean isBalance(String UserInput)
 	{
